@@ -1,0 +1,18 @@
+{
+	"name": "@sigrist.dev/monorepo",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"format": "prettier --write .",
+		"test": "pnpm --recursive test",
+		"build": "pnpm --recursive build",
+        "changeset": "changeset",
+        "ci:version": "changeset version",
+		"ci:publish": "pnpm --recursive publish"
+	},
+	"dependencies": {
+		"@changesets/cli": "^2.27.1",
+		"prettier": "^3.1.0",
+		"prettier-plugin-svelte": "^3.1.2"
+	}
+}
