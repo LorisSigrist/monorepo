@@ -1,0 +1,62 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1699442533083,
+      "tag": "0000_exotic_vulture",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1699453545673,
+      "tag": "0001_brief_namorita",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1699454702836,
+      "tag": "0002_tiny_leader",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1699460286019,
+      "tag": "0003_lame_valeria_richards",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1699712996221,
+      "tag": "0004_futuristic_shape",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1699784337402,
+      "tag": "0005_gigantic_jazinda",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1699784484248,
+      "tag": "0006_harsh_moonstone",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1699784628128,
+      "tag": "0007_goofy_gateway",
+      "breakpoints": true
+    }
+  ]
+}

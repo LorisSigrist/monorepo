@@ -1,3 +1,3 @@
 # Remy
 
-Remy is a PWA for managing food orders.
+Remy is a Web App for managing food orders.
