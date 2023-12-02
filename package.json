@@ -6,8 +6,8 @@
 		"format": "prettier --write .",
 		"test": "pnpm --recursive test",
 		"build": "pnpm --recursive build",
-        "changeset": "changeset",
-        "ci:version": "changeset version",
+		"changeset": "changeset",
+		"ci:version": "changeset version",
 		"ci:publish": "pnpm --recursive publish"
 	},
 	"dependencies": {
