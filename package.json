@@ -4,7 +4,7 @@
 	"type": "module",
 	"scripts": {
 		"format": "prettier --write .",
-		"test": "pnpm --recursive test",
+		"test": "pnpm --recursive --parallel test",
 		"build": "pnpm --recursive build",
 		"lint": "prettier --check . && eslint . --fix",
 		"changeset": "changeset",

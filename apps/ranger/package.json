@@ -8,7 +8,7 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"test": "vitest",
+		"test": "vitest run --passWithNoTests",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"drizzle:generate": "drizzle-kit generate:mysql",
@@ -36,6 +36,7 @@
 		"mysql2": "^3.6.3",
 		"sveltekit-superforms": "^1.10.1",
 		"t18s": "^0.1.2",
-		"zod": "^3.22.4"
+		"zod": "^3.22.4",
+		"@sigrist.dev/guardian": "workspace:*"
 	}
 }

@@ -1,32 +1,29 @@
 {
-	"name": "@sigrist.dev/zod-helpers",
+	"name": "@sigrist.dev/guardian",
 	"version": "0.0.1",
-	"description": "Commonly used helpers for zod",
-	"author": "Loris Sigrist",
 	"private": true,
+	"description": "Rolebased authorisation for SvelteKit",
 	"type": "module",
+	"author": "Loris Sigrist",
 	"main": "src/index.js",
 	"types": "types/index.d.ts",
 	"scripts": {
 		"build": "node ./build.js",
 		"test": "vitest run --passWithNoTests"
 	},
+	"devDependencies": {
+		"dts-buddy": "^0.4.0",
+		"vitest": "^0.34.6"
+	},
+	"files": [
+		"src",
+		"types",
+		"!**/*.test.js"
+	],
 	"exports": {
 		".": {
 			"import": "./src/index.js",
 			"types": "./types/index.d.ts"
 		}
-	},
-	"files": [
-		"src",
-		"!**/*.test.js",
-		"types"
-	],
-	"devDependencies": {
-		"dts-buddy": "^0.4.0",
-		"vitest": "^0.34.6"
-	},
-	"dependencies": {
-		"zod": "^3.22.4"
 	}
 }

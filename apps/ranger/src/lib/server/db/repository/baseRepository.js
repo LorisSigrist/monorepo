@@ -1,4 +1,4 @@
-import { SQL, eq, inArray } from 'drizzle-orm';
+import { eq, inArray } from 'drizzle-orm';
 import { db } from '..';
 import { sql } from 'drizzle-orm';
 
@@ -93,16 +93,15 @@ export class BaseRepository {
 		await db.delete(this.#table).where(inArray(this.#table.id, idArray));
 	}
 
-
 	/**
 	 * Returns the total number of Entries in the Table.s
 	 * @returns {Promise<number>}
 	 */
 	async count() {
 		/**
-		 * @type { SQL<number>}
+		 * @type { import("drizzle-orm").SQL<number>}
 		 */
 		const count = sql`cast(count(*) as UNSIGNED)`;
-		return (await db.select({ count }).from(this.#table))[0].count
+		return (await db.select({ count }).from(this.#table))[0].count;
 	}
 }

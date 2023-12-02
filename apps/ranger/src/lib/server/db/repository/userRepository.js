@@ -55,15 +55,12 @@ class UserRepository extends BaseRepository {
 		return await db.select().from(User).orderBy(User.id).limit(limit).offset(offset);
 	}
 
-
 	/**
-	 * 
-	 * @param {*} userData 
-	 * @param {*} roleIds 
+	 *
+	 * @param {*} userData
+	 * @param {*} roleIds
 	 */
-	async createWithRoles(userData, roleIds) {
-		
-	}
+	async createWithRoles(userData, roleIds) {}
 }
 
 export const userRepository = new UserRepository();
