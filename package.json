@@ -6,12 +6,16 @@
 		"format": "prettier --write .",
 		"test": "pnpm --recursive test",
 		"build": "pnpm --recursive build",
+		"lint": "prettier --check . && eslint . --fix",
 		"changeset": "changeset",
 		"ci:version": "changeset version",
 		"ci:publish": "pnpm --recursive publish"
 	},
-	"dependencies": {
+	"devDependencies": {
 		"@changesets/cli": "^2.27.1",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte": "^2.30.0",
 		"prettier": "^3.1.0",
 		"prettier-plugin-svelte": "^3.1.2"
 	}
