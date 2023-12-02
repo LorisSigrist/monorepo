@@ -1,6 +1,8 @@
 import { z } from 'zod';
 import { JWT_KEY } from '$env/static/private';
-import { verify, decode, sign } from 'jsonwebtoken';
+import jsonwebtoken from 'jsonwebtoken';
+
+const { verify, decode, sign } = jsonwebtoken;
 
 export const JWT_COOKIE_NAME = 'jwt';
 
