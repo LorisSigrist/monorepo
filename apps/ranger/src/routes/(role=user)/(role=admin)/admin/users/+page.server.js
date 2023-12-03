@@ -1,4 +1,3 @@
-import { enforceRole } from '$lib/auth/enforceRole.server.js';
 import { z } from 'zod';
 import { error } from '@sveltejs/kit';
 import { userRepository } from '$lib/server/db/repository/userRepository.js';
@@ -9,7 +8,6 @@ const PaginationParamSchema = z.object({
 });
 
 export async function load({ locals, url }) {
-	enforceRole(locals.user, 'admin');
 	const { limit, offset } = parseSearchParams(url, PaginationParamSchema);
 
 	const users = await userRepository.findByPaginated(offset, limit);

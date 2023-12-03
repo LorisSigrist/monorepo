@@ -1,54 +1,82 @@
 {
-	"version": "5",
-	"dialect": "mysql",
-	"id": "4399e4d2-55c2-4cd9-8b99-e7e256c952a2",
-	"prevId": "00000000-0000-0000-0000-000000000000",
-	"tables": {
-		"user": {
-			"name": "user",
-			"columns": {
-				"id": {
-					"name": "id",
-					"type": "bigint",
-					"primaryKey": false,
-					"notNull": true,
-					"autoincrement": true
-				},
-				"username": {
-					"name": "username",
-					"type": "varchar(256)",
-					"primaryKey": false,
-					"notNull": true,
-					"autoincrement": false
-				},
-				"password": {
-					"name": "password",
-					"type": "varchar(256)",
-					"primaryKey": false,
-					"notNull": true,
-					"autoincrement": false
-				}
-			},
-			"indexes": {},
-			"foreignKeys": {},
-			"compositePrimaryKeys": {
-				"user_id": {
-					"name": "user_id",
-					"columns": ["id"]
-				}
-			},
-			"uniqueConstraints": {
-				"ix_username": {
-					"name": "ix_username",
-					"columns": ["username"]
-				}
-			}
-		}
-	},
-	"schemas": {},
-	"_meta": {
-		"schemas": {},
-		"tables": {},
-		"columns": {}
-	}
+  "version": "5",
+  "dialect": "mysql",
+  "id": "f1711f3b-fcd7-408f-a50f-9b059104141e",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "tables": {
+    "user": {
+      "name": "user",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "bigint",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": true
+        },
+        "created": {
+          "name": "created",
+          "type": "datetime",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "CURRENT_TIMESTAMP"
+        },
+        "username": {
+          "name": "username",
+          "type": "varchar(256)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "password": {
+          "name": "password",
+          "type": "varchar(256)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "roles": {
+          "name": "roles",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": 0
+        }
+      },
+      "indexes": {
+        "ix_username": {
+          "name": "ix_username",
+          "columns": [
+            "username"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "user_id": {
+          "name": "user_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {
+        "uix_username": {
+          "name": "uix_username",
+          "columns": [
+            "username"
+          ]
+        }
+      }
+    }
+  },
+  "schemas": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
 }

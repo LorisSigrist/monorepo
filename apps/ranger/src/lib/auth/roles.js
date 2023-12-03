@@ -1,9 +1,12 @@
-//The key for the user_role bitfield
+/**
+ * @type {['USER', 'ADMIN']}
+ */
+export const VALID_ROLES = ['USER', 'ADMIN'];
 
-export const USER = 0b0001;
-export const ADMIN = 0b0010;
-
-export default {
-	USER,
-	ADMIN
+/**
+ * @type {Record<(typeof VALID_ROLES)[number], number>}
+ */
+export const ROLES = {
+	USER: 0b0001,
+	ADMIN: 0b0010
 };

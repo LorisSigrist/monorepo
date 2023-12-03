@@ -1,6 +1,7 @@
 <script>
 	import { superForm } from 'sveltekit-superforms/client';
 	import { CreateUserSchema } from './schema';
+	import { VALID_ROLES } from '$lib/auth/roles';
 
 	export let data;
 
@@ -30,10 +31,10 @@
 		{/each}
 	{/if}
 
-	{#each data.roles as role}
+	{#each VALID_ROLES as role}
 		<label>
-			<span>{role.name}</span>
-			<input type="checkbox" name="roles" value={role.id} bind:group={$form.roles} />
+			<span>{role}</span>
+			<input type="checkbox" name="roles" value={role} bind:group={$form.roles} />
 		</label>
 	{/each}
 

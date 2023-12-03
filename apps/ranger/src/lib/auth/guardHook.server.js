@@ -1,11 +1,10 @@
 import { getRoles } from '@sigrist.dev/guardian';
-import ROLES from './roles.js';
+import { ROLES, VALID_ROLES } from './roles.js';
 
-const VALID_ROLES = /** @type {(keyof typeof ROLES)[]} */ (Object.keys(ROLES));
 
 /**
  * @param {any} role
- * @returns {role is keyof typeof ROLES}
+ * @returns {role is VALID_ROLES[number]}
  */
 const isValidRole = (role) => VALID_ROLES.includes(role);
 
