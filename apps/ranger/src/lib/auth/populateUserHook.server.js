@@ -4,16 +4,16 @@ import { userRepository } from '$lib/server/db/repository/userRepository';
 /**
  * @type {App.Locals["user"]}
  */
-const NULL_USER = {
+const ANONYMOUS_USER = {
 	id: null,
-	roles: []
+	roles: 0
 };
 
 /**
  * @type { import("@sveltejs/kit").Handle}
  */
 export const populateUser = async ({ event, resolve }) => {
-	event.locals.user = NULL_USER;
+	event.locals.user = ANONYMOUS_USER;
 
 	const jwt_token = event.cookies.get(JWT_COOKIE_NAME);
 	if (!jwt_token) return await resolve(event);
@@ -31,7 +31,7 @@ export const populateUser = async ({ event, resolve }) => {
 	}
 
 	const { user_id } = parseResult.data;
-	const user = await userRepository.getUser(user_id);
+	const user = await userRepository.find(user_id);
 
 	if (!user) {
 		event.cookies.delete('jwt');
@@ -40,7 +40,7 @@ export const populateUser = async ({ event, resolve }) => {
 
 	event.locals.user = {
 		id: user.id,
-		roles: user.usersToUserRole.flatMap((x) => x.role.role)
+		roles: user.roles
 	};
 
 	return await resolve(event);

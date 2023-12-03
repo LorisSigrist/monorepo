@@ -3,7 +3,6 @@ import { DB_HOST, DB_NAME, DB_PASSWORD, DB_USER } from '$env/static/private';
 import mysql from 'mysql2/promise';
 
 import * as UserSchema from './schema/user.js';
-import * as UserRoleSchema from './schema/user-role.js';
 
 const poolConnection = mysql.createPool({
 	host: DB_HOST,
@@ -14,8 +13,7 @@ const poolConnection = mysql.createPool({
 
 export const db = drizzle(poolConnection, {
 	schema: {
-		...UserSchema,
-		...UserRoleSchema
+		...UserSchema
 	},
 	mode: 'default',
 	logger: true

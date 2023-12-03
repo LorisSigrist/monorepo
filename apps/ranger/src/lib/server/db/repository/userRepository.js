@@ -12,35 +12,12 @@ class UserRepository extends BaseRepository {
 	}
 
 	/**
-	 * @param {number} id
-	 */
-	async getUser(id) {
-		return await db.query.User.findFirst({
-			where: eq(User.id, id),
-			with: {
-				usersToUserRole: {
-					with: {
-						role: true
-					}
-				}
-			}
-		});
-	}
-
-	/**
 	 * Get a user by their username if they exist.
 	 * @param {string} username
 	 */
 	async getByName(username) {
 		return await db.query.User.findFirst({
-			where: eq(User.username, username),
-			with: {
-				usersToUserRole: {
-					with: {
-						role: true
-					}
-				}
-			}
+			where: eq(User.username, username)
 		});
 	}
 
@@ -54,13 +31,6 @@ class UserRepository extends BaseRepository {
 	async findByPaginated(offset, limit) {
 		return await db.select().from(User).orderBy(User.id).limit(limit).offset(offset);
 	}
-
-	/**
-	 *
-	 * @param {*} userData
-	 * @param {*} roleIds
-	 */
-	async createWithRoles(userData, roleIds) {}
 }
 
 export const userRepository = new UserRepository();

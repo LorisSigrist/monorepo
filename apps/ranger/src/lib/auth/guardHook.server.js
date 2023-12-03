@@ -1,18 +1,39 @@
 import { getRoles } from '@sigrist.dev/guardian';
+import ROLES from './roles.js';
+
+const VALID_ROLES = /** @type {(keyof typeof ROLES)[]} */ (Object.keys(ROLES));
+
+/**
+ * @param {any} role
+ * @returns {role is keyof typeof ROLES}
+ */
+const isValidRole = (role) => VALID_ROLES.includes(role);
 
 /**
  * @type {import("@sveltejs/kit").Handle}
  */
 export const guard = async ({ event, resolve }) => {
-	// 404 - No need to guard
+	// Non-SvelteKit route -> pass through
 	if (!event.route.id) return await resolve(event);
 
-	const requiredRoles = getRoles(event.route.id);
-	const authorized = [...requiredRoles].every((role) => event.locals.user.roles.includes(role));
+	const requiredRoleNames = [...getRoles(event.route.id)].filter(isValidRole);
+	const requiredRoleBitmask = requiredRoleNames.reduce((acc, role) => acc | ROLES[role], 0);
+
+	//Check that the user has all the required roles
+	const authorized = (event.locals.user.roles & requiredRoleBitmask) === requiredRoleBitmask;
 
 	if (!authorized) {
+		//If not authenticated, return a 401
+		if (event.locals.user.id === null) {
+			return new Response('Unauthenticated', {
+				status: 401,
+				statusText: 'Unauthenticated'
+			});
+		}
+
+		//Otherwise, return a 403
 		return new Response('Unauthorized', {
-			status: 401,
+			status: 403,
 			statusText: 'Unauthorized'
 		});
 	}

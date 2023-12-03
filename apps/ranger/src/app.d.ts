@@ -1,13 +1,22 @@
 // See https://kit.svelte.dev/docs/types#app
+
 // for information about these interfaces
 declare global {
 	namespace App {
 		// interface Error {}
 		interface Locals {
 			user: {
-				/** The ID of the current user. Will be _null_ if the user is not authenticated */
+				/**
+				 * The user's unique ID.
+				 * null = anonymous user
+				 */
 				id: number | null;
-				roles: string[];
+
+				/**
+				 * A bitfield of the user's roles.
+				 * 0 = no roles = anonymous user
+				 */
+				roles: number;
 			};
 		}
 		// interface PageData {}
