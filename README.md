@@ -1,6 +1,6 @@
 # Sigrist.dev Monorepo
 
-This repo contains all the code & content for my personal projects. 
+This repo contains all the code & content for my personal projects.
 
 I'm trying this monorepo approach because I need to learn how to use it for work.
 
