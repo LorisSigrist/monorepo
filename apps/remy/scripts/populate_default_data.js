@@ -23,5 +23,4 @@ await db.insert(User).values({
 	roles: ROLES['ADMIN'] | ROLES['USER']
 });
 
-
 process.exit(0);

@@ -27,11 +27,14 @@ importers:
         specifier: ^3.1.2
         version: 3.1.2(prettier@3.1.0)(svelte@4.2.8)
 
-  apps/ranger:
+  apps/remy:
     dependencies:
       '@sigrist.dev/guardian':
         specifier: workspace:*
         version: link:../../packages/guardian
+      '@sigrist.dev/result':
+        specifier: workspace:*
+        version: link:../../packages/result
       '@tailwindcss/forms':
         specifier: ^0.5.7
         version: 0.5.7(tailwindcss@3.3.5)
@@ -91,27 +94,6 @@ importers:
         specifier: ^0.34.0
         version: 0.34.6
 
-  apps/remy:
-    devDependencies:
-      '@sveltejs/adapter-auto':
-        specifier: ^2.0.0
-        version: 2.1.1(@sveltejs/kit@1.27.6)
-      '@sveltejs/kit':
-        specifier: ^1.27.4
-        version: 1.27.6(svelte@4.2.8)(vite@4.5.0)
-      svelte:
-        specifier: ^4.2.7
-        version: 4.2.8
-      svelte-check:
-        specifier: ^3.6.0
-        version: 3.6.2(postcss@8.4.32)(svelte@4.2.8)
-      typescript:
-        specifier: ^5.0.0
-        version: 5.2.2
-      vite:
-        specifier: ^4.4.2
-        version: 4.5.0(@types/node@20.10.2)
-
   packages/guardian:
     devDependencies:
       dts-buddy:
@@ -122,6 +104,8 @@ importers:
         version: 0.34.6
 
   packages/pdf: {}
+
+  packages/result: {}
 
   packages/zod-helpers:
     dependencies:

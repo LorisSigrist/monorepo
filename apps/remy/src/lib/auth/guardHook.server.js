@@ -1,7 +1,6 @@
 import { getRoles } from '@sigrist.dev/guardian';
 import { ROLES, VALID_ROLES } from './roles.js';
 
-
 /**
  * @param {any} role
  * @returns {role is VALID_ROLES[number]}

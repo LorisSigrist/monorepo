@@ -18,10 +18,11 @@ export const populateUser = async ({ event, resolve }) => {
 	if (!jwt_token) return await resolve(event);
 
 	const parseResult = parseJWT(jwt_token);
-	if (!parseResult.valid) {
-		switch (parseResult.reason) {
+	if (!parseResult.ok) {
+		switch (parseResult.error) {
 			case 'invalid_signature':
 			case 'invalid_data':
+			case 'expired':
 			default: {
 				event.cookies.delete('jwt');
 				return await resolve(event);
@@ -29,7 +30,8 @@ export const populateUser = async ({ event, resolve }) => {
 		}
 	}
 
-	const { user_id, roles } = parseResult.data;
+	const { user_id, roles } = parseResult.value;
+
 	event.locals.user = {
 		id: user_id,
 		roles: roles

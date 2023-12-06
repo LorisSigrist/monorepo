@@ -1,0 +1,8 @@
+{
+    "name": "@sigrist.dev/result",
+    "description": "A simple result type for TypeScript",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "src/index.js",
+    "types": "src/index.d.ts"
+}
