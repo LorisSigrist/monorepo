@@ -1,5 +1,4 @@
 import { JWT_COOKIE_NAME, parseJWT } from './jwt.server.js';
-import { userRepository } from '$lib/server/db/repository/userRepository';
 
 /**
  * @type {App.Locals["user"]}
@@ -30,17 +29,10 @@ export const populateUser = async ({ event, resolve }) => {
 		}
 	}
 
-	const { user_id } = parseResult.data;
-	const user = await userRepository.find(user_id);
-
-	if (!user) {
-		event.cookies.delete('jwt');
-		return await resolve(event);
-	}
-
+	const { user_id, roles } = parseResult.data;
 	event.locals.user = {
-		id: user.id,
-		roles: user.roles
+		id: user_id,
+		roles: roles
 	};
 
 	return await resolve(event);

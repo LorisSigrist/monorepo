@@ -20,7 +20,7 @@ export const actions = {
 		const isCorrectPassword = await verify(user.password, form.data.password);
 		if (!isCorrectPassword) return fail(400, { form, invalidLogin: true });
 
-		const jwt = createJWT({ user_id: user.id });
+		const jwt = createJWT({ user_id: user.id, roles: user.roles });
 		cookies.set(JWT_COOKIE_NAME, jwt, {
 			path: '/',
 			httpOnly: true,

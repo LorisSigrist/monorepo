@@ -30,7 +30,7 @@ export class BaseRepository {
 	 * @returns {Promise<Table["$inferSelect"] | undefined>}
 	 */
 	async find(id) {
-		return await db.select().from(this.#table).where(eq(this.#table.id, id));
+		return (await db.select().from(this.#table).where(eq(this.#table.id, id)).limit(1)).at(0);
 	}
 
 	/**
