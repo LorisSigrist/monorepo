@@ -85,7 +85,7 @@
 			</div>
 		</form>
 		{#if form?.invalidLogin}
-			<p class="text-red-600 mt-4">Benutzername oder Password falsch</p>
+			<p class="mt-4 text-red-600">Benutzername oder Password falsch</p>
 		{/if}
 	</div>
 </div>
