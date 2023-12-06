@@ -1,3 +1,3 @@
 # Remy
 
-Remy is a Web App for managing food orders.
+A food ordering App.
