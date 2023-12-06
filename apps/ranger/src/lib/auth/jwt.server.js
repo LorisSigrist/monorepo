@@ -11,7 +11,7 @@ const ALGORITHM = 'HS512';
 
 export const JWTSchema = z.object({
 	user_id: z.number().int().positive(),
-	roles: z.number().int().positive()
+	roles: z.number().int().nonnegative()
 });
 
 /**
