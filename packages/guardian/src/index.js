@@ -2,8 +2,8 @@
  * Parse a routeID and return the roles required to access the route
  *
  * @example
- * getRoles('/(role=author)/posts')
- * // => Set(['author'])
+ * 	getRoles('/(role=author)/posts');
+ * 	// => Set(['author'])
  *
  * @param {string} routeId
  * @returns {Set<string>} The Roles requried to access the route

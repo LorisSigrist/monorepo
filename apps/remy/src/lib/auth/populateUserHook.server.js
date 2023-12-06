@@ -1,16 +1,12 @@
 import { JWT_COOKIE_NAME, parseJWT } from './jwt.server.js';
 
-/**
- * @type {App.Locals["user"]}
- */
+/** @type {App.Locals['user']} */
 const ANONYMOUS_USER = {
 	id: null,
 	roles: 0
 };
 
-/**
- * @type { import("@sveltejs/kit").Handle}
- */
+/** @type {import('@sveltejs/kit').Handle} */
 export const populateUser = async ({ event, resolve }) => {
 	event.locals.user = ANONYMOUS_USER;
 

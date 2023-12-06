@@ -7,9 +7,7 @@ import { ROLES, VALID_ROLES } from './roles.js';
  */
 const isValidRole = (role) => VALID_ROLES.includes(role);
 
-/**
- * @type {import("@sveltejs/kit").Handle}
- */
+/** @type {import('@sveltejs/kit').Handle} */
 export const guard = async ({ event, resolve }) => {
 	// Non-SvelteKit route -> pass through
 	if (!event.route.id) return await resolve(event);

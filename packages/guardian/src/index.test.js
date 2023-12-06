@@ -1,9 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { getRoles } from './index.js';
 
-/**
- * @type {{ routeId: string, expectedRoles: string[] }[]}
- */
+/** @type {{ routeId: string; expectedRoles: string[] }[]} */
 const FIXTURES = [
 	{
 		routeId: '/login',

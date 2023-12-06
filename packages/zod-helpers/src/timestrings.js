@@ -1,8 +1,6 @@
 import { z } from 'zod';
 
-/**
- * Verifies that the string is a valid time in the format "hh:mm"
- */
+/** Verifies that the string is a valid time in the format "hh:mm" */
 export function hh_mm() {
 	return z
 		.string()
@@ -20,9 +18,7 @@ export function hh_mm() {
 		);
 }
 
-/**
- * Verifies that the string is a valid time in the format "hh:mm:ss"
- */
+/** Verifies that the string is a valid time in the format "hh:mm:ss" */
 export function hh_mm_ss() {
 	return z
 		.string()

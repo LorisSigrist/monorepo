@@ -7,7 +7,7 @@ const { verify, decode, sign } = jsonwebtoken;
 
 export const JWT_COOKIE_NAME = 'jwt';
 
-/** @type {import("jsonwebtoken").Algorithm} */
+/** @type {import('jsonwebtoken').Algorithm} */
 const ALGORITHM = 'HS512';
 
 export const JWTSchema = z.object({
@@ -16,17 +16,18 @@ export const JWTSchema = z.object({
 	exp: z.number().int().nonnegative().describe('Unix timestamp in seconds')
 });
 
-/**
- * @typedef {z.infer<typeof JWTSchema>} JWT
- */
+/** @typedef {z.infer<typeof JWTSchema>} JWT */
 
 /**
  * @param {string} token
- * @returns {import("@sigrist.dev/result").Result<JWT, {
- * 		invalid_signature: undefined,
- * 		invalid_data: { raw: any },
- * 		expired: { exp: number }
- * }>}
+ * @returns {import('@sigrist.dev/result').Result<
+ * 	JWT,
+ * 	{
+ * 		invalid_signature: undefined;
+ * 		invalid_data: { raw: any };
+ * 		expired: { exp: number };
+ * 	}
+ * >}
  */
 export const parseJWT = (token) => {
 	const isValid = verify(token, JWT_KEY, { algorithms: [ALGORITHM] });
@@ -51,7 +52,7 @@ export const parseJWT = (token) => {
 /**
  * Creates and signs a JWT token
  *
- * @param {Omit<JWT, "exp">} data
+ * @param {Omit<JWT, 'exp'>} data
  * @returns {string}
  */
 export const createJWT = (data) => {

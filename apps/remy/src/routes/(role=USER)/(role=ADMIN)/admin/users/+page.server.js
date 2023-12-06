@@ -16,11 +16,9 @@ export async function load({ locals, url }) {
 
 /**
  * @template {z.ZodSchema<any>} Z
- *
  * @param {URL} url
  * @param {Z} schema
  * @returns {z.infer<Z>}
- *
  * @throws {ReturnType<typeof error>}
  */
 function parseSearchParams(url, schema) {

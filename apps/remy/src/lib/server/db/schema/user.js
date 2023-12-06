@@ -9,9 +9,7 @@ export const User = mysqlTable(
 		username: varchar('username', { length: 256 }).notNull().unique('uix_username'),
 		password: varchar('password', { length: 256 }).notNull(),
 
-		/**
-		 * A bitfield of roles
-		 */
+		/** A bitfield of roles */
 		roles: int('roles').notNull().default(0)
 	},
 	(table) => ({
@@ -21,5 +19,6 @@ export const User = mysqlTable(
 
 /**
  * @typedef {import('drizzle-orm').InferSelectModel<typeof User>} UserSelect
+ *
  * @typedef {import('drizzle-orm').InferInsertModel<typeof User>} UserInsert
  */

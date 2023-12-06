@@ -6,16 +6,10 @@ declare global {
 		// interface Error {}
 		interface Locals {
 			user: {
-				/**
-				 * The user's unique ID.
-				 * null = anonymous user
-				 */
+				/** The user's unique ID. null = anonymous user */
 				id: number | null;
 
-				/**
-				 * A bitfield of the user's roles.
-				 * 0 = no roles = anonymous user
-				 */
+				/** A bitfield of the user's roles. 0 = no roles = anonymous user */
 				roles: number;
 			};
 		}

@@ -3,9 +3,7 @@ import { db } from '..';
 import { User } from '../schema/user.js';
 import { BaseRepository } from './baseRepository';
 
-/**
- * @extends BaseRepository<User>
- */
+/** @extends BaseRepository<User> */
 class UserRepository extends BaseRepository {
 	constructor() {
 		super(User);
@@ -13,6 +11,7 @@ class UserRepository extends BaseRepository {
 
 	/**
 	 * Get a user by their username if they exist.
+	 *
 	 * @param {string} username
 	 */
 	async getByName(username) {
@@ -23,10 +22,10 @@ class UserRepository extends BaseRepository {
 
 	/**
 	 * Returns the paginated Users, sorted by ID (asc)
+	 *
 	 * @param {number} offset
 	 * @param {number} limit
-	 *
-	 * @return
+	 * @returns
 	 */
 	async findByPaginated(offset, limit) {
 		return await db.select().from(User).orderBy(User.id).limit(limit).offset(offset);

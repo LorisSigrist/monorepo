@@ -1,6 +1,4 @@
-/**
- * Create a Result object.
- */
+/** Create a Result object. */
 export const Result = {
 	ok(value) {
 		return {

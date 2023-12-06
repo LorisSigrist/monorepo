@@ -1,11 +1,11 @@
 import { z } from 'zod';
 
 /**
- * Creates an array schema that filters out any elements that don't match the given schema
- * If all elements are filtered out, the filtered array schema will fail (unless the original array is already empty)
+ * Creates an array schema that filters out any elements that don't match the given schema If all
+ * elements are filtered out, the filtered array schema will fail (unless the original array is
+ * already empty)
  *
- * @template {import("zod").ZodSchema} S
- *
+ * @template {import('zod').ZodSchema} S
  * @param {S} Schema The schema for the elements of the array
  * @returns A schema that filters out any elements that don't match the given schema
  */
