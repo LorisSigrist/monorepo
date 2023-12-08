@@ -33,14 +33,25 @@ importers:
         specifier: ^0.5.9
         version: 0.5.9(prettier-plugin-jsdoc@1.1.1)(prettier-plugin-svelte@3.1.2)(prettier@3.1.0)
 
-  apps/remy:
+  code/guardian:
+    devDependencies:
+      dts-buddy:
+        specifier: ^0.4.0
+        version: 0.4.0(typescript@5.2.2)
+      vitest:
+        specifier: ^0.34.6
+        version: 0.34.6
+
+  code/pdf: {}
+
+  code/remy:
     dependencies:
       '@sigrist.dev/guardian':
         specifier: workspace:*
-        version: link:../../packages/guardian
+        version: link:../guardian
       '@sigrist.dev/result':
         specifier: workspace:*
-        version: link:../../packages/result
+        version: link:../result
       '@tailwindcss/forms':
         specifier: ^0.5.7
         version: 0.5.7(tailwindcss@3.3.5)
@@ -100,20 +111,9 @@ importers:
         specifier: ^0.34.0
         version: 0.34.6
 
-  packages/guardian:
-    devDependencies:
-      dts-buddy:
-        specifier: ^0.4.0
-        version: 0.4.0(typescript@5.2.2)
-      vitest:
-        specifier: ^0.34.6
-        version: 0.34.6
+  code/result: {}
 
-  packages/pdf: {}
-
-  packages/result: {}
-
-  packages/zod-helpers:
+  code/zod-helpers:
     dependencies:
       zod:
         specifier: ^3.22.4
