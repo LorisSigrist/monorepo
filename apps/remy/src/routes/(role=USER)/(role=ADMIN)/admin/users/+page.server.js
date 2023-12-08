@@ -7,9 +7,8 @@ const PaginationParamSchema = z.object({
 	limit: z.number({ coerce: true }).int().nonnegative().finite().default(20)
 });
 
-export async function load({ locals, url }) {
+export async function load({ url }) {
 	const { limit, offset } = parseSearchParams(url, PaginationParamSchema);
-
 	const users = await userRepository.findByPaginated(offset, limit);
 	return { users };
 }

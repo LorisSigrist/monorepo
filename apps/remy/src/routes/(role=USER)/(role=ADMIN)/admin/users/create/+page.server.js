@@ -5,7 +5,7 @@ import { userRepository } from '$lib/server/db/repository/userRepository.js';
 import { hash } from 'argon2';
 import { ROLES } from '$lib/auth/roles.js';
 
-export const load = async ({ locals }) => {
+export const load = async () => {
 	//Run the Promises in parallel
 	return {
 		form: superValidate(CreateUserSchema)
@@ -13,7 +13,7 @@ export const load = async ({ locals }) => {
 };
 
 export const actions = {
-	default: async ({ request, locals }) => {
+	default: async ({ request }) => {
 		const form = await superValidate(request, CreateUserSchema);
 		if (!form.valid) return fail(400, { form });
 
