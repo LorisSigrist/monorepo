@@ -1,6 +1,9 @@
 import './styles.css';
 import * as d3 from 'd3';
-import data from './data/inlang.json';
+import data from './hohenegg.json';
+
+/** @type {import('../site-mapper/src/crawl').Crawl} */
+const crawlData = data;
 
 const app = document.getElementById('app');
 
@@ -13,10 +16,18 @@ const color = d3.scaleOrdinal(d3.schemeCategory10);
 
 // The force simulation mutates links and nodes, so create a copy
 // so that re-evaluating this cell produces the same result.
-const links = data.edges.map((d) => ({ source: d[0], target: d[1], value: 1 }));
-const nodes = data.pages.map((d) => {
-	console.log(d);
-	return { id: d, group: d.includes('n') ? '1' : '2' };
+const links = crawlData.edges.map((d) => ({
+	source: d.from,
+	target: d.to,
+	value: { link: 1, nav: 0.1, external: 0.2 }[d.type]
+}));
+
+const nodes = crawlData.nodes.map((d) => {
+	return {
+		id: d.url,
+		group: d.type,
+		backlinks: links.filter((l) => l.target === d.url).length
+	};
 });
 
 // Create a simulation with sevseral forces.
@@ -26,12 +37,21 @@ const simulation = d3
 		'link',
 		d3
 			.forceLink(links)
-			.id((d) => d.id)
-			.distance(150)
+			.id((node) => node.id)
+			.distance(200)
 	)
-	.force('charge', d3.forceManyBody().strength(30))
-	.force('collide', d3.forceCollide().radius(15))
-	.force('center', d3.forceCenter(width / 2, height / 2))
+	.force(
+		'charge',
+		d3.forceManyBody().strength((node) => (node.group === 'page' ? -40 : -10))
+	)
+	.force(
+		'collide',
+		d3
+			.forceCollide()
+			.radius((node) => ({ page: 15, external: 4 })[node.group] + Math.sqrt(node.backlinks))
+	)
+	.force('center', d3.forceCenter(width / 2, height / 2).strength(1))
+	.alphaDecay(0.01)
 	.on('tick', ticked);
 
 // Create the SVG container.
@@ -59,24 +79,15 @@ const node = svg
 	.selectAll()
 	.data(nodes)
 	.join('circle')
-	.attr('r', 5)
+
+	//increase radius for pages with more backlinks at a decreasing rate
+	.attr('r', (d) => Math.sqrt(Math.sqrt(d.backlinks)) + 2)
 	.attr('fill', (d) => color(d.group));
 
 node.append('title').text((d) => d.id);
 
 // Add a drag behavior.
 node.call(d3.drag().on('start', dragstarted).on('drag', dragged).on('end', dragended));
-
-const div = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0);
-
-//Add click behavior
-node.on('mouseover', function (d) {
-	div.transition().duration(200).style('opacity', 0.9);
-	div
-		.html(d.id + '<br/>' + d.close)
-		.style('left', d3.event.pageX + 'px')
-		.style('top', d3.event.pageY - 28 + 'px');
-});
 
 // Set the position attributes of links and nodes each time the simulation ticks.
 function ticked() {
