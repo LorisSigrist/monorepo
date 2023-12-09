@@ -1,4 +1,4 @@
-import { getRoles } from '@sigrist.dev/guardian';
+import { getRoles } from '@sigrist.dev/sveltekit-roles';
 import { ROLES, VALID_ROLES } from './roles.js';
 
 /**

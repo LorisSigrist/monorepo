@@ -1,5 +1,5 @@
 {
-	"name": "@sigrist.dev/guardian",
+	"name": "@sigrist.dev/sveltekit-roles",
 	"version": "0.0.1",
 	"private": true,
 	"description": "Rolebased authorisation for SvelteKit",

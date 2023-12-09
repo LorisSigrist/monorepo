@@ -4,7 +4,7 @@ createBundle({
 	project: 'tsconfig.json',
 	output: 'types/index.d.ts',
 	modules: {
-		'@sigrist.dev/guardian': './src/index.js'
+		'@sigrist.dev/sveltekit-roles': './src/index.js'
 	},
 	include: ['src']
 });
