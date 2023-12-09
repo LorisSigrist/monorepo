@@ -97,7 +97,7 @@ export async function crawl(entryUrl) {
 
 		page.internalLinks = page.internalLinks.filter((link) => !visited.has(link.href));
 		page.internalLinks.forEach((link) => queue.add(link));
-		console.log(`Crawled ${pages.length} pages - ${queue.size} in queue`);
+		console.info(`Crawled ${pages.length} pages - ${queue.size} in queue`);
 	}
 
 	/** @type {import('../crawl.js').Node[]} */

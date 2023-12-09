@@ -1,13 +1,13 @@
 {
-  "name": "@sigrist.dev/site-mapper",
-  "version": "1.0.0",
-  "type": "module",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@sigrist.dev/result": "workspace:*",
-    "cheerio": "1.0.0-rc.12"
-  }
+	"name": "@sigrist.dev/site-mapper",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@sigrist.dev/result": "workspace:*",
+		"cheerio": "1.0.0-rc.12"
+	}
 }

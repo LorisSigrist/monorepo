@@ -1,2261 +1,2261 @@
 {
-  "entry": "https://www.winno.ch/",
-  "nodes": [
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/legal/datenschutzerklaerung"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/dienstleistungen/web-design"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/dienstleistungen/google-ads"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/ueber-uns"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/kontakt"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/legal/agbs"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/legal/impressum"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/sitemap"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/branding/style-guide"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/branding/components"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/branding/sections"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/401"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/404"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.winno.ch/search"
-    },
-    {
-      "type": "external",
-      "url": "https://www.sdrsofgermany.com/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.hausarzt-scherer.de/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.instagram.com/winno.ch/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.linkedin.com/company/winno-schweiz/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.uid.admin.ch/Detail.aspx"
-    },
-    {
-      "type": "external",
-      "url": "https://www.dauenhauer.one/"
-    },
-    {
-      "type": "external",
-      "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj"
-    },
-    {
-      "type": "external",
-      "url": "https://edpb.europa.eu/about-edpb/board/members_de"
-    },
-    {
-      "type": "external",
-      "url": "https://www.edoeb.admin.ch/edoeb/de/home/adresse.html"
-    },
-    {
-      "type": "external",
-      "url": "https://www.plerdy.com/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.plerdy.com/do-not-track/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.plerdy.com/gdpr-plerdy/"
-    },
-    {
-      "type": "external",
-      "url": "https://support.google.com/analytics/answer/6004245"
-    },
-    {
-      "type": "external",
-      "url": "https://policies.google.com/technologies/partner-sites"
-    },
-    {
-      "type": "external",
-      "url": "https://www.webflow.com/legal/eu-privacy-policy"
-    },
-    {
-      "type": "external",
-      "url": "https://www.facebook.com/policy"
-    },
-    {
-      "type": "external",
-      "url": "https://www.facebook.com/settings"
-    },
-    {
-      "type": "external",
-      "url": "https://www.facebook.com/legal/terms/information_about_page_insights_data"
-    },
-    {
-      "type": "external",
-      "url": "https://www.facebook.com/legal/terms/page_controller_addendum"
-    },
-    {
-      "type": "external",
-      "url": "https://www.linkedin.com/legal/privacy-policy"
-    },
-    {
-      "type": "external",
-      "url": "https://www.youtube.com/%C2%ADstatic"
-    },
-    {
-      "type": "external",
-      "url": "https://de.legal.trustpilot.com/end-user-privacy-terms"
-    },
-    {
-      "type": "external",
-      "url": "https://support.google.com/adspolicy/answer/9457109"
-    },
-    {
-      "type": "external",
-      "url": "https://www.linkedin.com/in/fabio-lichtler/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.linkedin.com/in/philippgomez/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.zefix.ch/de/search/entity/list/firm/1580132"
-    }
-  ],
-  "edges": [
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.sdrsofgermany.com/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.hausarzt-scherer.de/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.uid.admin.ch/Detail.aspx",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.dauenhauer.one/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://edpb.europa.eu/about-edpb/board/members_de",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.edoeb.admin.ch/edoeb/de/home/adresse.html",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.plerdy.com/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.plerdy.com/do-not-track/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.plerdy.com/gdpr-plerdy/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://support.google.com/analytics/answer/6004245",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://policies.google.com/technologies/partner-sites",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.webflow.com/legal/eu-privacy-policy",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.facebook.com/policy",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.facebook.com/settings",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.facebook.com/legal/terms/information_about_page_insights_data",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.facebook.com/legal/terms/page_controller_addendum",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.linkedin.com/legal/privacy-policy",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.youtube.com/%C2%ADstatic",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://de.legal.trustpilot.com/end-user-privacy-terms",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://support.google.com/adspolicy/answer/9457109",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/web-design",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://support.google.com/adspolicy/answer/9457109",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://support.google.com/adspolicy/answer/9457109",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/dienstleistungen/google-ads",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.linkedin.com/in/fabio-lichtler/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.linkedin.com/in/philippgomez/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/ueber-uns",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/kontakt",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/agbs",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.zefix.ch/de/search/entity/list/firm/1580132",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/legal/impressum",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/branding/style-guide",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/branding/components",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/branding/sections",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/401",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/404",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/sitemap",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/branding/style-guide",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/branding/components",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/branding/sections",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/401",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/search",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/404",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/ueber-uns",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/kontakt",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/dienstleistungen/web-design",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/dienstleistungen/google-ads",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/legal/agbs",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/legal/datenschutzerklaerung",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/legal/impressum",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/sitemap",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.winno.ch/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.instagram.com/winno.ch/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.winno.ch/search",
-      "to": "https://www.linkedin.com/company/winno-schweiz/",
-      "type": "external"
-    }
-  ]
+	"entry": "https://www.winno.ch/",
+	"nodes": [
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/legal/datenschutzerklaerung"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/dienstleistungen/web-design"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/dienstleistungen/google-ads"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/ueber-uns"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/kontakt"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/legal/agbs"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/legal/impressum"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/sitemap"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/branding/style-guide"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/branding/components"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/branding/sections"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/401"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/404"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.winno.ch/search"
+		},
+		{
+			"type": "external",
+			"url": "https://www.sdrsofgermany.com/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.hausarzt-scherer.de/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.instagram.com/winno.ch/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.linkedin.com/company/winno-schweiz/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.uid.admin.ch/Detail.aspx"
+		},
+		{
+			"type": "external",
+			"url": "https://www.dauenhauer.one/"
+		},
+		{
+			"type": "external",
+			"url": "https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj"
+		},
+		{
+			"type": "external",
+			"url": "https://edpb.europa.eu/about-edpb/board/members_de"
+		},
+		{
+			"type": "external",
+			"url": "https://www.edoeb.admin.ch/edoeb/de/home/adresse.html"
+		},
+		{
+			"type": "external",
+			"url": "https://www.plerdy.com/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.plerdy.com/do-not-track/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.plerdy.com/gdpr-plerdy/"
+		},
+		{
+			"type": "external",
+			"url": "https://support.google.com/analytics/answer/6004245"
+		},
+		{
+			"type": "external",
+			"url": "https://policies.google.com/technologies/partner-sites"
+		},
+		{
+			"type": "external",
+			"url": "https://www.webflow.com/legal/eu-privacy-policy"
+		},
+		{
+			"type": "external",
+			"url": "https://www.facebook.com/policy"
+		},
+		{
+			"type": "external",
+			"url": "https://www.facebook.com/settings"
+		},
+		{
+			"type": "external",
+			"url": "https://www.facebook.com/legal/terms/information_about_page_insights_data"
+		},
+		{
+			"type": "external",
+			"url": "https://www.facebook.com/legal/terms/page_controller_addendum"
+		},
+		{
+			"type": "external",
+			"url": "https://www.linkedin.com/legal/privacy-policy"
+		},
+		{
+			"type": "external",
+			"url": "https://www.youtube.com/%C2%ADstatic"
+		},
+		{
+			"type": "external",
+			"url": "https://de.legal.trustpilot.com/end-user-privacy-terms"
+		},
+		{
+			"type": "external",
+			"url": "https://support.google.com/adspolicy/answer/9457109"
+		},
+		{
+			"type": "external",
+			"url": "https://www.linkedin.com/in/fabio-lichtler/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.linkedin.com/in/philippgomez/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.zefix.ch/de/search/entity/list/firm/1580132"
+		}
+	],
+	"edges": [
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.sdrsofgermany.com/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.hausarzt-scherer.de/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.uid.admin.ch/Detail.aspx",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.dauenhauer.one/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://edpb.europa.eu/about-edpb/board/members_de",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.edoeb.admin.ch/edoeb/de/home/adresse.html",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.plerdy.com/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.plerdy.com/do-not-track/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.plerdy.com/gdpr-plerdy/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://support.google.com/analytics/answer/6004245",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://policies.google.com/technologies/partner-sites",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.webflow.com/legal/eu-privacy-policy",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.facebook.com/policy",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.facebook.com/settings",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.facebook.com/legal/terms/information_about_page_insights_data",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.facebook.com/legal/terms/page_controller_addendum",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.linkedin.com/legal/privacy-policy",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.youtube.com/%C2%ADstatic",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://de.legal.trustpilot.com/end-user-privacy-terms",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://support.google.com/adspolicy/answer/9457109",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/web-design",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://support.google.com/adspolicy/answer/9457109",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://support.google.com/adspolicy/answer/9457109",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/dienstleistungen/google-ads",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.linkedin.com/in/fabio-lichtler/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.linkedin.com/in/philippgomez/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/ueber-uns",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/kontakt",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/agbs",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.zefix.ch/de/search/entity/list/firm/1580132",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/legal/impressum",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/branding/style-guide",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/branding/components",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/branding/sections",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/401",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/404",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/sitemap",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/branding/style-guide",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/branding/components",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/branding/sections",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/401",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/search",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/404",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/ueber-uns",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/kontakt",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/dienstleistungen/web-design",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/dienstleistungen/suchmaschinenoptimierung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/dienstleistungen/google-ads",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/legal/agbs",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/legal/datenschutzerklaerung",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/legal/impressum",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/sitemap",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.winno.ch/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.instagram.com/winno.ch/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.winno.ch/search",
+			"to": "https://www.linkedin.com/company/winno-schweiz/",
+			"type": "external"
+		}
+	]
 }

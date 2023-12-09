@@ -1,411 +1,411 @@
 {
-  "entry": "https://www.sigrist.dev/",
-  "nodes": [
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/dithering"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/declarative-exception-handling"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/adding-devtools-to-vite-plugins"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/melt-ui-neat-pattern"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/the-poor-mans-scheduled-post"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/reliably-avoiding-theme-flashes"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/the-better-way-to-load-data"
-    },
-    {
-      "type": "page",
-      "status": "ok",
-      "url": "https://www.sigrist.dev/mock-data-with-zocker"
-    },
-    {
-      "type": "external",
-      "url": "https://zocker.sigrist.dev/"
-    },
-    {
-      "type": "external",
-      "url": "https://t18s.sigrist.dev/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.github.com/LorisSigrist"
-    },
-    {
-      "type": "external",
-      "url": "https://www.github.com/Rich-Harris/dts-buddy"
-    },
-    {
-      "type": "external",
-      "url": "https://today.sigrist.dev/"
-    },
-    {
-      "type": "external",
-      "url": "https://www.css-tricks.com/flash-of-inaccurate-color-theme-fart/"
-    },
-    {
-      "type": "external",
-      "url": "https://html.spec.whatwg.org/"
-    },
-    {
-      "type": "external",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event"
-    },
-    {
-      "type": "external",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoderStream"
-    },
-    {
-      "type": "external",
-      "url": "https://www.npmjs.com/package/@streamparser/json-whatwg"
-    },
-    {
-      "type": "external",
-      "url": "https://www.npmjs.com/package/@faker-js/faker"
-    }
-  ],
-  "edges": [
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/declarative-exception-handling",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/melt-ui-neat-pattern",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/the-better-way-to-load-data",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.sigrist.dev/mock-data-with-zocker",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/declarative-exception-handling",
-      "to": "https://www.sigrist.dev/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/declarative-exception-handling",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/declarative-exception-handling",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/declarative-exception-handling",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/declarative-exception-handling",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
-      "to": "https://www.sigrist.dev/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
-      "to": "https://www.github.com/Rich-Harris/dts-buddy",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/melt-ui-neat-pattern",
-      "to": "https://www.sigrist.dev/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/melt-ui-neat-pattern",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/melt-ui-neat-pattern",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/melt-ui-neat-pattern",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/melt-ui-neat-pattern",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
-      "to": "https://www.sigrist.dev/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
-      "to": "https://today.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
-      "to": "https://www.sigrist.dev/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "to": "https://www.sigrist.dev/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "to": "https://www.css-tricks.com/flash-of-inaccurate-color-theme-fart/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "to": "https://html.spec.whatwg.org/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
-      "to": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-better-way-to-load-data",
-      "to": "https://www.sigrist.dev/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-better-way-to-load-data",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-better-way-to-load-data",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-better-way-to-load-data",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-better-way-to-load-data",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-better-way-to-load-data",
-      "to": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoderStream",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/the-better-way-to-load-data",
-      "to": "https://www.npmjs.com/package/@streamparser/json-whatwg",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/mock-data-with-zocker",
-      "to": "https://www.sigrist.dev/",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/mock-data-with-zocker",
-      "to": "https://www.sigrist.dev/dithering",
-      "type": "link"
-    },
-    {
-      "from": "https://www.sigrist.dev/mock-data-with-zocker",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/mock-data-with-zocker",
-      "to": "https://t18s.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/mock-data-with-zocker",
-      "to": "https://www.github.com/LorisSigrist",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/mock-data-with-zocker",
-      "to": "https://www.npmjs.com/package/@faker-js/faker",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/mock-data-with-zocker",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    },
-    {
-      "from": "https://www.sigrist.dev/mock-data-with-zocker",
-      "to": "https://zocker.sigrist.dev/",
-      "type": "external"
-    }
-  ]
+	"entry": "https://www.sigrist.dev/",
+	"nodes": [
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/dithering"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/declarative-exception-handling"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/adding-devtools-to-vite-plugins"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/melt-ui-neat-pattern"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/the-poor-mans-scheduled-post"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/reliably-avoiding-theme-flashes"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/the-better-way-to-load-data"
+		},
+		{
+			"type": "page",
+			"status": "ok",
+			"url": "https://www.sigrist.dev/mock-data-with-zocker"
+		},
+		{
+			"type": "external",
+			"url": "https://zocker.sigrist.dev/"
+		},
+		{
+			"type": "external",
+			"url": "https://t18s.sigrist.dev/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.github.com/LorisSigrist"
+		},
+		{
+			"type": "external",
+			"url": "https://www.github.com/Rich-Harris/dts-buddy"
+		},
+		{
+			"type": "external",
+			"url": "https://today.sigrist.dev/"
+		},
+		{
+			"type": "external",
+			"url": "https://www.css-tricks.com/flash-of-inaccurate-color-theme-fart/"
+		},
+		{
+			"type": "external",
+			"url": "https://html.spec.whatwg.org/"
+		},
+		{
+			"type": "external",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event"
+		},
+		{
+			"type": "external",
+			"url": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoderStream"
+		},
+		{
+			"type": "external",
+			"url": "https://www.npmjs.com/package/@streamparser/json-whatwg"
+		},
+		{
+			"type": "external",
+			"url": "https://www.npmjs.com/package/@faker-js/faker"
+		}
+	],
+	"edges": [
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/declarative-exception-handling",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/melt-ui-neat-pattern",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/the-better-way-to-load-data",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.sigrist.dev/mock-data-with-zocker",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/declarative-exception-handling",
+			"to": "https://www.sigrist.dev/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/declarative-exception-handling",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/declarative-exception-handling",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/declarative-exception-handling",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/declarative-exception-handling",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
+			"to": "https://www.sigrist.dev/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/adding-devtools-to-vite-plugins",
+			"to": "https://www.github.com/Rich-Harris/dts-buddy",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/melt-ui-neat-pattern",
+			"to": "https://www.sigrist.dev/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/melt-ui-neat-pattern",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/melt-ui-neat-pattern",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/melt-ui-neat-pattern",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/melt-ui-neat-pattern",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
+			"to": "https://www.sigrist.dev/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-poor-mans-scheduled-post",
+			"to": "https://today.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
+			"to": "https://www.sigrist.dev/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/dts-buddy-fixes-type-declarations",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"to": "https://www.sigrist.dev/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"to": "https://www.css-tricks.com/flash-of-inaccurate-color-theme-fart/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"to": "https://html.spec.whatwg.org/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/reliably-avoiding-theme-flashes",
+			"to": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-better-way-to-load-data",
+			"to": "https://www.sigrist.dev/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-better-way-to-load-data",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-better-way-to-load-data",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-better-way-to-load-data",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-better-way-to-load-data",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-better-way-to-load-data",
+			"to": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoderStream",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/the-better-way-to-load-data",
+			"to": "https://www.npmjs.com/package/@streamparser/json-whatwg",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/mock-data-with-zocker",
+			"to": "https://www.sigrist.dev/",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/mock-data-with-zocker",
+			"to": "https://www.sigrist.dev/dithering",
+			"type": "link"
+		},
+		{
+			"from": "https://www.sigrist.dev/mock-data-with-zocker",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/mock-data-with-zocker",
+			"to": "https://t18s.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/mock-data-with-zocker",
+			"to": "https://www.github.com/LorisSigrist",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/mock-data-with-zocker",
+			"to": "https://www.npmjs.com/package/@faker-js/faker",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/mock-data-with-zocker",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		},
+		{
+			"from": "https://www.sigrist.dev/mock-data-with-zocker",
+			"to": "https://zocker.sigrist.dev/",
+			"type": "external"
+		}
+	]
 }

@@ -23,7 +23,6 @@ const links = crawlData.edges.map((d) => ({
 }));
 
 const nodes = crawlData.nodes.map((d) => {
-	console.log(d);
 	return {
 		id: d.url,
 		group: d.type,
