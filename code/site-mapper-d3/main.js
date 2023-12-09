@@ -1,6 +1,6 @@
 import './styles.css';
 import * as d3 from 'd3';
-import data from './hohenegg.json';
+import data from './data.json';
 
 /** @type {import('../site-mapper/src/crawl').Crawl} */
 const crawlData = data;
@@ -23,10 +23,11 @@ const links = crawlData.edges.map((d) => ({
 }));
 
 const nodes = crawlData.nodes.map((d) => {
+	console.log(d);
 	return {
 		id: d.url,
 		group: d.type,
-		backlinks: links.filter((l) => l.target === d.url).length
+		backlinks: crawlData.edges.filter((e) => e.to === d.url).length
 	};
 });
 
@@ -51,7 +52,7 @@ const simulation = d3
 			.radius((node) => ({ page: 15, external: 4 })[node.group] + Math.sqrt(node.backlinks))
 	)
 	.force('center', d3.forceCenter(width / 2, height / 2).strength(1))
-	.alphaDecay(0.01)
+	.alphaDecay(0.000001)
 	.on('tick', ticked);
 
 // Create the SVG container.

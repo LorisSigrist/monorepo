@@ -9,7 +9,9 @@ export async function crawl(entryUrl) {
 	entryUrl = getCanonicalURL(entryUrl);
 	// A set of full urls that have already been visited
 	const visited = new Set();
-	const queue = [entryUrl];
+
+	// A queue of urls to visits
+	const queue = new Set([entryUrl]);
 
 	/** @type {import('../crawl.js').PageNode[]} */
 	const pages = [];
@@ -27,18 +29,19 @@ export async function crawl(entryUrl) {
 	 */
 	const edges = [];
 
-	while (queue.length > 0) {
-		const url = queue.shift();
+	while (queue.size > 0) {
+		const url = queue.values().next().value;
 		if (!url) {
 			continue;
 		}
+		queue.delete(url);
 
 		const href = getCanonicalURL(url).href;
 		if (visited.has(href)) {
 			continue;
 		}
 
-		const result = await getPage(url);
+		const result = await getPage(url, entryUrl);
 		visited.add(href);
 		pages.push({
 			type: 'page',
@@ -47,7 +50,14 @@ export async function crawl(entryUrl) {
 		});
 
 		if (!result.ok) {
-			console.log(`Skipping ${url.href} because ${result.error}`);
+			switch (result.error) {
+				case 'notHTML': {
+					break;
+				}
+				case 'badResponse': {
+					break;
+				}
+			}
 			continue;
 		}
 
@@ -85,7 +95,9 @@ export async function crawl(entryUrl) {
 			}
 		}
 
-		queue.push(...page.internalLinks);
+		page.internalLinks = page.internalLinks.filter((link) => !visited.has(link.href));
+		page.internalLinks.forEach((link) => queue.add(link));
+		console.log(`Crawled ${pages.length} pages - ${queue.size} in queue`);
 	}
 
 	/** @type {import('../crawl.js').Node[]} */
@@ -100,6 +112,7 @@ export async function crawl(entryUrl) {
 
 /**
  * @param {URL} url
+ * @param {URL} entryUrl
  * @returns {Promise<
  * 	Result<
  * 		{ url: URL; internalLinks: URL[]; externalLinks: URL[]; nonHttpLinks: URL[] },
@@ -107,7 +120,7 @@ export async function crawl(entryUrl) {
  * 	>
  * >}
  */
-async function getPage(url) {
+async function getPage(url, entryUrl) {
 	const response = await fetch(url);
 	if (!response.ok) {
 		return Result.bad('badResponse', response);
@@ -141,8 +154,8 @@ async function getPage(url) {
 			continue;
 		}
 
-		// Skip links that are not on the same host
-		if (linkUrl.host !== url.host) {
+		// Skip links that are not children of the entry url
+		if (!linkUrl.href.startsWith(entryUrl.href)) {
 			externalLinks.push(linkUrl);
 			continue;
 		}

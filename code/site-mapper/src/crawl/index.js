@@ -1,7 +1,7 @@
 import { crawl } from './crawl.js';
 import fs from 'fs/promises';
 
-const url = new URL('https://sigrist.dev/');
+const url = new URL('https://sigrist.dev');
 const crawlData = await crawl(url);
 
 console.log(`Crawled ${crawlData.nodes.length} pages`);
