@@ -23,11 +23,14 @@
 		"svelte-check": "^3.4.3",
 		"tailwindcss": "^3.3.5",
 		"typescript": "^5.0.0",
+		"unplugin-icons": "^0.18.1",
 		"vite": "^4.4.2",
 		"vitest": "^0.34.0"
 	},
 	"type": "module",
 	"dependencies": {
+		"@sigrist.dev/result": "workspace:*",
+		"@sigrist.dev/sveltekit-roles": "workspace:*",
 		"@tailwindcss/forms": "^0.5.7",
 		"argon2": "^0.31.2",
 		"dotenv": "^16.3.1",
@@ -36,8 +39,6 @@
 		"mysql2": "^3.6.3",
 		"sveltekit-superforms": "^1.10.1",
 		"t18s": "^0.1.2",
-		"zod": "^3.22.4",
-		"@sigrist.dev/sveltekit-roles": "workspace:*",
-		"@sigrist.dev/result": "workspace:*"
+		"zod": "^3.22.4"
 	}
 }

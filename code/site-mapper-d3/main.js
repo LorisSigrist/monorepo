@@ -1,6 +1,6 @@
 import './styles.css';
 import * as d3 from 'd3';
-import data from './data.json';
+import data from './hohenegg.json';
 
 /** @type {import('../site-mapper/src/crawl').Crawl} */
 const crawlData = data;
