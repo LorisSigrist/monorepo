@@ -6,15 +6,16 @@
 	import Label from '$lib/ui/fieldset/Label.svelte';
 	import Input from '$lib/ui/fieldset/Input.svelte';
 	import Errors from '$lib/ui/fieldset/Errors.svelte';
+	import Button from '$lib/ui/buttons/Button.svelte';
 
 	export let data;
 
 	const { form, errors, enhance, constraints, submitting } = superForm(data.form, {
-		validators: CreateUserSchema
+		validators: CreateUserSchema,
 	});
 </script>
 
-<form class="grid gap-4" use:enhance method="POST">
+<form class="flex flex-col gap-4" use:enhance method="POST">
 	<Field>
 		<Label>Username</Label>
 		<Input 
@@ -48,5 +49,5 @@
 		</label>
 	{/each}
 
-	<button type="submit" disabled={$submitting}>Create</button>
+	<Button type="submit" disabled>Create</Button>
 </form>
