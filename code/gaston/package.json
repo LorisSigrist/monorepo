@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@melt-ui/svelte": "^0.66.1",
 		"@sigrist.dev/result": "workspace:*",
 		"@sigrist.dev/sveltekit-roles": "workspace:*",
 		"@tailwindcss/forms": "^0.5.7",

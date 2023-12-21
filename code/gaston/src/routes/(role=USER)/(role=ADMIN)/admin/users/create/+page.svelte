@@ -2,6 +2,10 @@
 	import { superForm } from 'sveltekit-superforms/client';
 	import { CreateUserSchema } from './schema';
 	import { VALID_ROLES } from '$lib/auth/roles';
+	import Field from '$lib/ui/fieldset/Field.svelte';
+	import Label from '$lib/ui/fieldset/Label.svelte';
+	import Input from '$lib/ui/fieldset/Input.svelte';
+	import Errors from '$lib/ui/fieldset/Errors.svelte';
 
 	export let data;
 
@@ -10,26 +14,32 @@
 	});
 </script>
 
-<form use:enhance method="POST">
-	<label>
-		<span>Username</span>
-		<input type="text" name="username" {...$constraints.username} bind:value={$form.username} />
-	</label>
-	{#if $errors.username}
-		{#each $errors.username as error}
-			<p>{error}</p>
-		{/each}
-	{/if}
+<form class="grid gap-4" use:enhance method="POST">
+	<Field>
+		<Label>Username</Label>
+		<Input 
+			type="text"
+			name="username" 
+			bind:value={$form.username} 
+			constraints={$constraints.username}
+			aria-invalid={!!$errors.username?.length}
+			placeholder="Username"
+		/>
+		<Errors errors={$errors.username} />
+	</Field>
 
-	<label>
-		<span>Password</span>
-		<input type="password" name="password" {...$constraints.password} bind:value={$form.password} />
-	</label>
-	{#if $errors.password}
-		{#each $errors.password as error}
-			<p>{error}</p>
-		{/each}
-	{/if}
+	<Field>
+		<Label>Password</Label>
+		<Input 
+			type="password"
+			name="password" 
+			bind:value={$form.password} 
+			constraints={$constraints.password}
+			aria-invalid={!!$errors.password?.length}
+			placeholder="Password"
+		/>
+		<Errors errors={$errors.password} />
+	</Field>
 
 	{#each VALID_ROLES as role}
 		<label>
