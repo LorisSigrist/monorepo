@@ -15,6 +15,7 @@
 		"drizzle:migrate": "node scripts/migrate.js"
 	},
 	"devDependencies": {
+		"@iconify-json/heroicons": "^1.1.19",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
 		"autoprefixer": "^10.4.16",

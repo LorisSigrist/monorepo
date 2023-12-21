@@ -2,14 +2,21 @@
 	import { page } from '$app/stores';
 	import AdminShell from './AdminShell.svelte';
 	import NavItem from './NavItem.svelte';
+	import UserIcon from "~icons/heroicons/user";
+	import HomeIcon from "~icons/heroicons/home";
 </script>
 
 <AdminShell>
 	<svelte:fragment slot="items">
-		<NavItem href="/admin" title="Dashboard" />
+		<NavItem 
+			href="/admin" 
+			title="Dashboard" 
+			icon={HomeIcon}
+		/>
 		<NavItem
-			href="/admin/users"
 			title="Users"
+			href="/admin/users"
+			icon={UserIcon}
 			current={$page.url.pathname.endsWith('/admin/users')}
 		/>
 	</svelte:fragment>

@@ -2,7 +2,7 @@
 	import { superForm } from 'sveltekit-superforms/client';
 	import { CreateUserSchema } from './schema';
 	import { VALID_ROLES } from '$lib/auth/roles';
-	import { Field, Label, Input,Errors } from '$lib/ui/fieldset';
+	import { Field, Label, Input, Errors, Description} from '$lib/ui/fieldset';
 	import Button from '$lib/ui/buttons/Button.svelte';
 
 	export let data;
@@ -25,6 +25,7 @@
 			placeholder="Username"
 			autocomplete="new-username"
 		/>
+		<Description>What should the new user be called?</Description>
 		<Errors errors={$errors.username} />
 	</Field>
 
@@ -39,13 +40,14 @@
 			placeholder="Password"
 			autocomplete="new-password"
 		/>
+		<Description>Set an initial password for the new user. They will be asked to change this</Description>
 		<Errors errors={$errors.password} />
 	</Field>
 
 	{#each VALID_ROLES as role}
 		<label>
-			<span>{role}</span>
 			<input type="checkbox" name="roles" value={role} bind:group={$form.roles} />
+			<span>{role}</span>
 		</label>
 	{/each}
 
