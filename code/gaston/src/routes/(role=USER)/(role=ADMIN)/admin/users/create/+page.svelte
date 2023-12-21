@@ -2,10 +2,7 @@
 	import { superForm } from 'sveltekit-superforms/client';
 	import { CreateUserSchema } from './schema';
 	import { VALID_ROLES } from '$lib/auth/roles';
-	import Field from '$lib/ui/fieldset/Field.svelte';
-	import Label from '$lib/ui/fieldset/Label.svelte';
-	import Input from '$lib/ui/fieldset/Input.svelte';
-	import Errors from '$lib/ui/fieldset/Errors.svelte';
+	import { Field, Label, Input,Errors } from '$lib/ui/fieldset';
 	import Button from '$lib/ui/buttons/Button.svelte';
 
 	export let data;
@@ -25,7 +22,7 @@
 			constraints={$constraints.username}
 			aria-invalid={!!$errors.username?.length}
 			placeholder="Username"
-		/>
+			autocomplete="new-username"
 		<Errors errors={$errors.username} />
 	</Field>
 
@@ -38,6 +35,7 @@
 			constraints={$constraints.password}
 			aria-invalid={!!$errors.password?.length}
 			placeholder="Password"
+			autocomplete="new-password"
 		/>
 		<Errors errors={$errors.password} />
 	</Field>
@@ -49,5 +47,5 @@
 		</label>
 	{/each}
 
-	<Button type="submit" disabled>Create</Button>
+	<Button type="submit" disabled={$submitting}>Create</Button>
 </form>
