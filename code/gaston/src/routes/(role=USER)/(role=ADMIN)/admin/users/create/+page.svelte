@@ -9,6 +9,7 @@
 
 	const { form, errors, enhance, constraints, submitting } = superForm(data.form, {
 		validators: CreateUserSchema,
+		invalidateAll: true,
 	});
 </script>
 
@@ -23,6 +24,7 @@
 			aria-invalid={!!$errors.username?.length}
 			placeholder="Username"
 			autocomplete="new-username"
+		/>
 		<Errors errors={$errors.username} />
 	</Field>
 
