@@ -7,7 +7,12 @@
 
 	export let current = false;
 
-	/** @type {import("svelte").SvelteComponent<import("svelte/elements").SvelteHTMLElements['svg']> & any}*/
+	/**
+	 * @type {import('svelte').SvelteComponent<
+	 * 	import('svelte/elements').SvelteHTMLElements['svg']
+	 * > &
+	 * 	any}
+	 */
 	export let icon;
 
 	const styles = {
@@ -24,7 +29,7 @@
 			current ? 'current' : 'default'
 		]}"
 	>
-		<svelte:component this={icon} class="w-6 h-6" />
+		<svelte:component this={icon} class="h-6 w-6" />
 		<span>{title}</span>
 	</a>
 </li>

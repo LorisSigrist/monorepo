@@ -1,8 +1,7 @@
 const int_regex = /^\d+$/;
 
 /**
- * 
- * @param {any} param 
+ * @param {any} param
  * @returns {param is `${bigint}`}
  */
 export const match = (param) => {

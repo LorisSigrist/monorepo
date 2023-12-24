@@ -1,10 +1,10 @@
 <script>
-	import { getFieldContext } from "./Field.svelte";
-	import { createLabel } from '@melt-ui/svelte'
+	import { getFieldContext } from '$lib/utils/field-context';
+	import { createLabel } from '@melt-ui/svelte';
 
 	const {
-    	elements: { root }
- 	 } = createLabel()
+		elements: { root }
+	} = createLabel();
 
 	const { id } = getFieldContext();
 </script>
