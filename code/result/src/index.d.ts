@@ -32,5 +32,5 @@ export type Result<OkVal, ErrorMap extends TypeMap> =
 
 export declare const Result: {
 	ok<V>(value: V): OkResult<V>;
-	bad<E extends string, V_1>(error: E, value: V_1): BadResult<E, V_1>;
+	bad<E extends string, V>(error: E, value: V): BadResult<E, V>;
 };
