@@ -1,4 +1,14 @@
-export function load() {
+import { error } from 'console';
+
+export function load({ params }) {
+	const timestamp = params.date ? Date.parse(params.date) : Date.now();
+
+	if (Number.isNaN(timestamp)) {
+		error(400, 'Invalid date');
+	}
+
+	const date = new Date(timestamp);
+
 	/**
 	 * @type {{
 	 * 	id: number;
@@ -28,7 +38,7 @@ export function load() {
 		}
 	];
 
-	return { items };
+	return { items, date };
 }
 
 export const actions = {

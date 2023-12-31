@@ -15,7 +15,7 @@
 </script>
 
 <form class="text-center grid gap-8 justify-center">
-    <h1 class="text-2xl font-bold">Today's Menu</h1>
+    <h1 class="text-2xl font-bold">Menu for {data.date.toLocaleDateString("de")}</h1>
 
     <section class="grid gap-4">
         {#each data.items as item}

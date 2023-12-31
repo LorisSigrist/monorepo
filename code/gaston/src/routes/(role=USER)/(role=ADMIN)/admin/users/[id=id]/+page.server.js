@@ -5,10 +5,10 @@ export const actions = {
 	delete: async ({ params }) => {
 		const id = Number(params.id);
 		if (isNaN(id)) {
-			throw fail(400, { message: 'Invalid id' });
+			return fail(400, { message: 'Invalid id' });
 		}
 
 		await userRepository.delete(id);
-		throw redirect(302, '/admin/users');
+		redirect(302, '/admin/users');
 	}
 };

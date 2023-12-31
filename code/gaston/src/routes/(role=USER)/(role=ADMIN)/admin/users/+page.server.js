@@ -25,7 +25,7 @@ function parseSearchParams(url, schema) {
 	const parseResult = schema.safeParse(params);
 
 	if (parseResult.success === false) {
-		throw error(400, 'Invalid Search Params');
+		error(400, 'Invalid Search Params');
 	}
 
 	return parseResult.data;

@@ -8,14 +8,14 @@ import { ROLES } from '$lib/auth/roles.js';
 export const load = async () => {
 	//Run the Promises in parallel
 	return {
-		form: superValidate(CreateUserSchema)
+		form: await superValidate(CreateUserSchema)
 	};
 };
 
 export const actions = {
 	default: async ({ request }) => {
 		const form = await superValidate(request, CreateUserSchema);
-		if (!form.valid) return fail(400, { form });
+		if (!form.valid) fail(400, { form });
 		const roles = form.data.roles.reduce((acc, role) => acc | ROLES[role], 0);
 
 		const hashedPassword = await hash(form.data.password);
@@ -25,6 +25,6 @@ export const actions = {
 			roles
 		});
 
-		throw redirect(302, '/admin/users');
+		redirect(302, '/admin/users');
 	}
 };
